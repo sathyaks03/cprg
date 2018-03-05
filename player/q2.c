@@ -2,13 +2,14 @@
 
 int main()
 {
-    int prod=1,i,num;
+    int prod=1,i=1,num;
     
      scanf("%d",&num);
     
-    for(i=1;i<=num;i++)
+    while(i<=num)
     {
         prod=prod*i;
+        i++;
     }
          printf("%d",prod);
     
